@@ -1,5 +1,14 @@
 /* styles.css */
 
+:root {
+    --backgroundcolor: darkgrey;
+}
+
+
+
+
+/* body styling */
+
 body {
     font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -12,7 +21,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: var(--backgroundcolor)  ;
 }
+
+/* header styling */
 
 header {
     background-color: #333;
@@ -32,14 +44,21 @@ header {
     height: auto;
     width: 300px;
     position: absolute;
-    left: 150px;
+    left: 75px;
+    border: 2px solid #000;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .navme {
-    height: 175px;
-    width: 200px;
+    height: 200px;
+    width: 225px;
     position: absolute;
-    right: 175px;
+    right: 135px;
+    top: 5px;
+    border: 2px solid #000;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 nav {
@@ -47,6 +66,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    background-color: var(--backgroundcolor);
 }
 
 nav ul {
@@ -78,6 +98,8 @@ nav a {
 nav a:hover {
     color: #ff6b6b;
 }
+
+/* hero styling */
 
 #hero {
     background-image: url('hero-bg.jpg');
