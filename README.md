@@ -43,6 +43,9 @@ Here are some of the skills and technologies used:
 - CSS
 - Responsive Web Design
 
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project as long as you provide proper attribution.
 
 ## Usage
 
