@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: var(--backgroundcolor)  ;
@@ -166,4 +166,42 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+/* contact me styling */
+
+#contact {
+    background-color: var(--backgroundcolor);
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #0056b3; /* Hover color */
 }

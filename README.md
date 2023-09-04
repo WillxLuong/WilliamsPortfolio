@@ -40,7 +40,7 @@ Feel free to explore these projects to see my coding style and the technologies 
 Here are some of the skills and technologies used:
 
 - HTML5
-- CSS3
+- CSS
 - Responsive Web Design
 
 
