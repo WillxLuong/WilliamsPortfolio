@@ -1,10 +1,11 @@
 /* styles.css */
 
+/* variables styling for efficiency */
+
 :root {
     --backgroundcolor: darkgrey;
+    --textcolor: #ffffff; 
 }
-
-
 
 
 /* body styling */
@@ -14,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    color: #333;
+    color: var(--textcolor);
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: var(--textcolor);
     position: left;
     width: 100%;
     z-index: 100;
@@ -105,9 +106,14 @@ nav a:hover {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: var(--textcolor);
     text-align: center;
     padding: 200px 0;
+    background-color: #333;
+}
+
+#hero div {
+    height: ;
 }
 
 #hero h2 {
@@ -118,9 +124,11 @@ nav a:hover {
 #about,
 #portfolio,
 #contact {
-    background-color: white;
+    background-color: #333;
     padding: 60px 0;
 }
+
+
 
 section h2 {
     font-size: 28px;
@@ -131,7 +139,7 @@ section h2 {
 /* projects styling */
 
 .project {
-    background-color: #f9f9f9;
+    background-color: var(--backgroundcolor);
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
@@ -163,7 +171,7 @@ section h2 {
 
 footer {
     background-color: #333;
-    color: white;
+    color: var(--textcolor);
     text-align: center;
     padding: 20px 0;
 }
@@ -172,17 +180,21 @@ footer {
 
 #contact {
     background-color: var(--backgroundcolor);
-    padding: 40px;
     text-align: center;
+    padding: 50px 0;
+    border: 5px solid #000;
 }
 
 #contact h1 {
     font-size: 28px;
+    color: var(--textcolor);
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 #contact p {
-    font-size: 18px;
+    font-size: 20px;
+    color: var(--textcolor);
     margin-bottom: 30px;
 }
 
@@ -192,8 +204,9 @@ footer {
 }
 
 #contact li {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--textcolor);
 }
 
 #contact a {
