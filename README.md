@@ -49,6 +49,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## Usage
 
-You can view my portfolio by simply visiting [the portfolio website](https://example.com/yourportfolio). If you'd like to set up a development environment or explore the code, follow these steps:
-
-
+You can view my portfolio by simply visiting [William's Portfolio](https://willxluong.github.io/WilliamsPortfolio/). 
