@@ -18,20 +18,20 @@ This portfolio is designed to provide an overview of my web development journey,
 
 Here are some of the projects featured in this portfolio:
 
-1. **Project 1**
-    - Description: A brief description of the project.
-    - Demo: [Link to Project 1](https://example.com/project1)
-    - Source Code: [GitHub Repository](https://github.com/yourusername/project1)
+1. **SSemantic html website**
+    - Description: A website that has been refactored by me
+    - Demo: [Link to Project 1](https://willxluong.github.io/Semantic-Website/)
+    - Source Code: [GitHub Repository](https://github.com/WillxLuong/Semantic-Website)
 
-2. **Project 2**
-    - Description: Another project description.
-    - Demo: [Link to Project 2](https://example.com/project2)
-    - Source Code: [GitHub Repository](https://github.com/yourusername/project2)
+2. **Calculator**
+    - Description: User friendly calculator
+    - Demo: [Link to Project 2](NA)
+    - Source Code: [GitHub Repository](NA)
 
-3. **Project 3**
-    - Description: Describe your third project here.
-    - Demo: [Link to Project 3](https://example.com/project3)
-    - Source Code: [GitHub Repository](https://github.com/yourusername/project3)
+3. **Password generator**
+    - Description: A password generating website
+    - Demo: [Link to Project 3](NA)
+    - Source Code: [GitHub Repository](NA)
 
 Feel free to explore these projects to see my coding style and the technologies I've used.
 
