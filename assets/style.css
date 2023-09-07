@@ -111,9 +111,6 @@ nav a:hover {
 /* hero styling */
 
 #hero {
-    background-image: url('hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
     color: var(--textcolor);
     text-align: center;
     padding: 100px 0;
@@ -135,6 +132,12 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+#hero div p{
+    font-size: 18px;
+}
+
+/* about me styling */
+
 #about {
     background-color: #333;
     padding: 20px 0;
@@ -144,7 +147,9 @@ nav a:hover {
     border: 5px solid black;
     border-left-width: 0; 
     border-right-width: 0;
+    font-size: 18px;
 }
+
 
 
 
@@ -172,12 +177,18 @@ section h2 {
 }
 
 /* projects styling */
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
 
 .project {
     background-color: var(--backgroundcolor);
     border: 1px solid #ddd;
     padding: 20px;
-    margin-bottom: 20px;
+    
     text-align: center;
     transition: transform 0.3s;
 }
@@ -202,6 +213,12 @@ section h2 {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+#week1homework {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 250px;
+}
+
 /* footer styling */
 
 footer {
@@ -213,6 +230,8 @@ footer {
 
 footer div {
     border: 5px solid black;
+    border-left-width: 0; 
+    border-right-width: 0;
 }
 
 /* contact me styling */
@@ -222,6 +241,8 @@ footer div {
     text-align: center;
     padding: 50px 0;
     border: 5px solid #000;
+    border-left-width: 0; 
+    border-right-width: 0;
 }
 
 #contact h1 {
