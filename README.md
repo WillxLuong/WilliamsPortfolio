@@ -18,9 +18,9 @@ This portfolio is designed to provide an overview of my web development journey,
 
 Here are some of the projects featured in this portfolio:
 
-1. **SSemantic html website**
+1. **Semantic html website**
     - Description: A website that has been refactored by me
-    - Demo: [Link to Project 1](https://willxluong.github.io/Semantic-Website/)
+    - Demo: [William's Porfolio](https://willxluong.github.io/Semantic-Website/)
     - Source Code: [GitHub Repository](https://github.com/WillxLuong/Semantic-Website)
 
 2. **Calculator**
@@ -39,7 +39,7 @@ Feel free to explore these projects to see my coding style and the technologies 
 
 Here are some of the skills and technologies used:
 
-- HTML5
+- HTML
 - CSS
 - Responsive Web Design
 
